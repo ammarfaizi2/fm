@@ -68,7 +68,7 @@ if (! isset($_SESSION["path"])) {
 		</script>
 	</head>
 	<body>
-		<a href="logout.php"><button>Logou</button></a>
+		<a href="logout.php"><button>Logout</button></a>
 		<!-- Element where elFinder will be created (REQUIRED) -->
 		<div id="elfinder"></div>
 
