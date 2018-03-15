@@ -1,3 +1,11 @@
+<?php
+session_start();
+define("S", 1);
+if (! isset($_SESSION["path"])) {
+	require __DIR__."/login.php";
+	exit();
+}
+?>
 <!DOCTYPE html>
 <html>
 	<head>
